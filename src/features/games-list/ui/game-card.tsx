@@ -5,7 +5,7 @@ export function GameCard({ login, rating }: { login: string; rating: number }) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Игра с {login}</CardTitle>
+        <CardTitle>Game with {login}</CardTitle>
       </CardHeader>
       <CardContent>Rating: {rating}</CardContent>
     </Card>
